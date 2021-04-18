@@ -29,7 +29,7 @@
 (defun integrate-by-boole (f x1 x5)
   "Computes and returns the numerical integral of the function F in the
    closed interval [X1, X5], where X1 demarcates the lower bound
-   of the abscissa and its upper bound, across which Boole's rule is
+   of the abscissa and X5 its upper bound, across which Boole's rule is
    applied."
   (declare (type (function (real) real) f))
   (declare (type real                   x1))
@@ -167,7 +167,7 @@
 (defun calculate-boole-area (f x1 x5)
   "Computes and returns the numerical integral of the function F in the
    closed interval [X1, X5], where X1 demarcates the lower bound
-   of the abscissa and its upper bound, across which Boole's rule is
+   of the abscissa and X5 its upper bound, across which Boole's rule is
    applied."
   (declare (type (function (real) real) f))
   (declare (type real                   x1))
